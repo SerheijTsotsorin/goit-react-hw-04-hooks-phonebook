@@ -1,0 +1,27 @@
+.ContactsList {
+  width: 400px;
+  margin: 0 auto;
+}
+.ContactsList__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactsList__text {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.ContactsList__button {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ff0000;
+}
