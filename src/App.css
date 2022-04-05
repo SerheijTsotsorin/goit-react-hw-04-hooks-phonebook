@@ -1,11 +1,47 @@
+.Phonebook {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.Phonebook__wrapper{
+background: #FFFFFF;
+box-shadow: 3px 6px 6px rgba(67, 67, 67, 0.25);
+border-radius: 15px;
+width: 450px;
+padding: 20px;
+}
+
+
+
 .Phonebook__title {
+  font-size: 24px;
+  color: black;
   margin: 0 auto;
   width: 400px;
   text-align: center;
 }
 
-.Phonebook__contacts {
+
+.Contacts {
   margin: 0 auto;
-  width: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 450px;
+  padding: 20px;
+  
+
+  background: #FFFFFF;
+  box-shadow: 3px 6px 6px rgba(67, 67, 67, 0.25);
+  border-radius: 15px;
+}
+
+.Contacts__title {
+  margin: 0 auto;
   text-align: center;
 }
